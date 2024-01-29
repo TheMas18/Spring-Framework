@@ -1,0 +1,20 @@
+package programming;
+
+public class OctalToDecimal {
+	public static void main(String[] args) {
+		int n = 247;
+		
+		int dec = 0;
+		int base = 1;
+		while (n != 0) {
+			int d = n % 10;
+			dec = dec + d * base;
+			base = base * 8;
+			n = n / 10;
+
+		}
+		System.out.println("Logic :" + dec);
+		
+
+	}
+}
