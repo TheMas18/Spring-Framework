@@ -8,6 +8,7 @@ public class LearnLinkList {
 //		System.out.println(list);
 		list.addFirst("a");
 		list.addFirst("is");
+		
 		System.out.println(list);
 		list.addFirst("this");
 		list.addLast("List");
